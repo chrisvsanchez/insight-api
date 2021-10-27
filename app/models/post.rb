@@ -1,3 +1,4 @@
 class Post < ApplicationRecord
-    has_attached_avatar :avatar
+    has_one_attached :avatar
 end
+ 
